@@ -1,27 +1,101 @@
-name: Node.js CI
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm start
+[
+	{
+		"key": "dbln",
+		"value": "%7B%2261573365137533%22%3A%22zBCYAdw3%22%7D",
+		"domain": "facebook.com",
+		"path": "/login/device-based/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.262Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "datr",
+		"value": "scjfactPctYfZrYEKtRB1tll",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "sb",
+		"value": "scjfaVSeHv4lLJEJ1l8GG7i2",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "c_user",
+		"value": "61573365137533",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "xs",
+		"value": "30%3AvFy2_yawaEuv0A%3A2%3A1776273724%3A-1%3A-1",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "locale",
+		"value": "en_US",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "pas",
+		"value": "61573365137533%3AWWJEKJzojK",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "vpd",
+		"value": "v1%3B722x384x1.875",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "fr",
+		"value": "0XE21S62sZM4LfUxB.AWec79bM4UNrAt3YvCuTsMrKMIfAbhxQe6D0qt_1DVJU68y-wF0.Bp38ix..AAA.0.0.Bp39tR.AWcFiQla0g8Qxh4zzvJfEMcbCKA",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "fbl_st",
+		"value": "101717688%3BT%3A29604639",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	},
+	{
+		"key": "wl_cbv",
+		"value": "v2%3Bclient_version%3A3143%3Btimestamp%3A1776278353",
+		"domain": "facebook.com",
+		"path": "/",
+		"hostOnly": false,
+		"creation": "2026-04-15T18:40:20.268Z",
+		"lastAccessed": "2026-04-15T18:40:20.268Z"
+	}
+]
